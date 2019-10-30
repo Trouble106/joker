@@ -1,0 +1,43 @@
+body {
+  background-color: #030303;
+  width: 100%;
+}
+html {
+  height: 100%;
+}
+.first-front {
+  background-image: url(/images/Home_visual.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 780px;
+}
+.footer-copyright {
+  color: white;
+  font-size: 6mm;
+}
+/* Menu */
+.navbar-nav {
+  display: inline-flex;
+  font-size: 8mm;
+  font-display: url(/font/Walkway-rounded.ttf);
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.navbar-nav a {
+  color: white;
+  transition: 0.5s ease;
+  /* border-left: 4px solid white; */
+}
+.navbar-nav a:hover {
+  border-left: 4px solid #ffffff;
+
+  padding-left: 10px;
+}
+
+.navbar-nav a:hover {
+  color: rgb(120, 120, 113);
+}
+.nav-link {
+  padding-bottom: 5px;
+}
+/* endding Menu */
