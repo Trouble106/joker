@@ -6,7 +6,7 @@ html {
   height: 100%;
 }
 .first-front {
-  background-image: url(/images/Home_visual.png);
+  background-image: url("../images/Home_visual.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 780px;
@@ -19,7 +19,7 @@ html {
 .navbar-nav {
   display: inline-flex;
   font-size: 8mm;
-  font-display: url(/font/Walkway-rounded.ttf);
+  font-display: url("../font/Walkway-rounded.ttf");
   margin-top: 5%;
   margin-left: 5%;
 }
@@ -40,4 +40,16 @@ html {
 .nav-link {
   padding-bottom: 5px;
 }
-/* endding Menu */
+/* ending Menu */
+
+/* Video page */
+.video-bg {
+  background-image: url("../images/Videos_visual.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 780px;
+}
+
+.video-thumb {
+  width: 300px;
+}
